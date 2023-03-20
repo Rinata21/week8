@@ -18,67 +18,73 @@
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
-
-  <body>
-      <div class="viarushka">
-        <header class="header viarushka-header">
-            <div class="header__logo">
-                <img class="logo" src="assets/images/logo.svg" alt="Logo">
-            </div>
-            <button class="button header__button button-small">
-                <a class="button__text" href="#">Корзина</a>
-                <img src="assets/images/basket.svg" alt="иконка корзины">
-            </button>
-        </header>
-    <main>
-      <div class="main-content"> 
-      <h1 class="main__header">Возможности</h1>
-      </div>
-      <div class="wrapper">
-      <div class="main-page page__box-1"> 
-        <img src="assets/images/Illustration_1.png" alt="man"> 
-        <h3>Без проводов</h3> 
-        <p>Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p> 
+  
+  <body class="body"> 
+    <div class="body-page"> 
+    <header class="header page-header"> 
+        <div class="header__logo"> 
+            <img class="logo" src="assets/images/logo.svg" alt="Logo"> 
+            <div class="header__logo-text"> 
+              <h1>Возможности</h1> 
+            </div> 
+        </div> 
+        <button class="button header__button button-small1"> 
+            <a class="button__text" href="#">Корзина</a> 
+            <img src="assets/images/basket.svg" alt="cart"> 
+        </button> 
+        </header> 
+    <main> 
+      <div class="main-page"> 
+        <div class="page-box_1"> 
+          <img src="assets/images/Illustration_1.png" alt="man"> 
+          <h3 class="heading-main">Без проводов</h3> 
+          <p>Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p> 
+        </div> 
+        <div class="page-box_2"> 
+          <img src="assets/images/Illustration_2.png" alt="robot"> 
+          <h3 class="heading-main">Без компьютера</h3> 
+          <p>Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p> 
+        </div> 
+        <div class="page-box_3"> 
+          <img src="assets/images/Illustration_3.png" alt="man"> 
+          <h3 class="heading-main">До 10 часов работы</h3> 
+          <p>Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p> 
+        </div> 
+        <div class="page-box_4"> 
+          <h3 class="heading-main">Сотни игр</h3> 
+          <p>Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p> 
+        </div> 
+        <div class="page-box_5"> 
+          <h3 class="heading-main">Почти даром</h3> 
+          <p>По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p> 
+        </div> 
+        <div class="page-box_6"> 
+          <div class="input-field"> 
+            <h3 class="heading-main_btn">Новости</h3> 
+            <input type="email" name="email" value="Эл. почта" class="input__item"> 
+            <button class="button header__button button-small2"> 
+              <a class="button__text" href="#">Подписаться</a></button>
+          </div> 
+          </div> 
       </div> 
-      <div class="main-page page__box-2"> 
-        <img src="assets/images/Illustration_2.png" alt="robot"> 
-        <h3>Без компьютера</h3> 
-        <p>Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p> 
-      </div> 
-      <div class="main-page page__box-3"> 
-        <img src="assets/images/Illustration_3.png" alt="man"> 
-        <h3>До 10 часов работы</h3> 
-        <p>Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p> 
-      </div> 
-      <div class="main-page page__box-4"> 
-        <h3>Сотни игр</h3> 
-        <p>Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p> 
-      </div> 
-      <div class="main-page page__box-5"> 
-        <h3>Почти даром</h3> 
-        <p>По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p> 
-      </div> 
-      <div clas="main-page page__box-6"> 
-        <img src="assets/images/Rectangle_12.png" alt="rectangle"> 
-      </div>
+      </main> 
+      <footer class="footer"> 
+        <ul class="footer__list"> 
+            <li class="footer__item"> 
+                <a class="footer__link-accent" href="viarushka.html" target="_blank">Возможности</a> 
+            </li> 
+            <li class="footer__item"> 
+                <a class="footer__link-accent" href="#">Где купить</a> 
+            </li> 
+            <li class="footer__item"> 
+                <a class="footer__link-accent" href="#">Доставка</a> 
+            </li> 
+            <li class="footer__item"> 
+                <a class="footer__link-accent" href="#">Помощь</a> 
+            </li> 
+        </ul> 
+    </footer> 
     </div> 
-    </main>
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-            <a class="footer__link-accent" href="viarushka.html" target="_blank">Возможности</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link-accent" href="#">Где купить</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link-accent" href="#">Доставка</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link-accent" href="#">Помощь</a>
-        </li>
-    </ul>
-    </footer>
-      </div>
-  </body>
-</html>
+  </body> 
+
+  </html>
